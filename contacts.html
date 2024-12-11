@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+ <!-- Navbar Section Starts Here -->
+ <section class="navbar" style="position: sticky;top:0px;">
+    <div class="container" >
+        <div class="logo">
+            <a href="#" title="Logo">
+                <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+            </a>
+        </div>
+
+        <div class="menu text-right">
+            <ul class="menu-links" id="menu-links">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+`                    <li>
+                    <a href="categories.html">Categories</a>
+                </li>
+                <li>
+                    <a href="category-foods.html">Category-Foods</a>
+                </li>
+                <li>
+                    <a href="order.html">Order</a>
+                </li>
+                <li>
+                    <a href="contacts.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+</section>
+<!-- Navbar Section Ends Here -->
+
+    <!-- Contact Us Section -->
+    <section class="contact-us" style="background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+
+            <div class="contact-form">
+                <form action="#" method="POST" class="order">
+                    <fieldset>
+                        <legend>Your Details</legend>
+                        
+                        <div>
+                            <label for="name" class="order-label">Full Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" class="input-responsive" required>
+                        </div>
+
+                        <div>
+                            <label for="email" class="order-label">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" class="input-responsive" required>
+                        </div>
+
+                        <div>
+                            <label for="phone" class="order-label">Phone:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" class="input-responsive" required>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Your Message</legend>
+
+                        <div>
+                            <label for="message" class="order-label">Message:</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Type your message here" class="input-responsive" required></textarea>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit" class="btn btn-primary" style="text-align: center; margin-left: 80px;">Submit</button>
+                </form>
+            </div>
+
+            <div class="contact-details text-center">
+                <h3>Or Reach Us At:</h3>
+                <p>Address: 123 Food Street, Flavor Town, FT 45678</p>
+                <p>Phone: +967776996855</p>
+                <p><a href="mailto:mohammed776996855@gmail.com">mohammed776996855@gmail.com"</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li><a href="https://facebook.com/yourpage" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/yourpage" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://youtube.com/yourchannel" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed by <a href="#">Eng.Mohammed Ghaleb</a></p>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
+
+
